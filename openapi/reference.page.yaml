@@ -1,16 +1,6 @@
 type: reference-docs
-versions:
-  - definitionId: petstore
-    id: v1
-    title: petstore v1
-    isDefault: false
-  - definitionId: Test-api-1
-    id: v3
-    title: Test api 1@v3
-    isDefault: true
-
+definitionId: test-api
 settings:
-  jsonSampleExpandLevel: all
   generateCodeSamples:
     languages:
       - lang: curl
