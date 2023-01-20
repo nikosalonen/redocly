@@ -40,7 +40,7 @@ training:
         page: developer-portal/custom-component.mdx
   - group: Reference docs
     pages:
-      - page: reference.page.yaml
+      - page: openapi/reference.page.yaml
 
   - group: Admin
     expanded: false
