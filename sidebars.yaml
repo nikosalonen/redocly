@@ -42,6 +42,10 @@ training:
     expanded: false
     pages:
       - page: openapi/reference.page.yaml/*
+  - group: test-api2 reference
+    expanded: false
+    pages:
+      - page: openapi/reference.page.yaml/*
 
   - group: Admin
     expanded: true

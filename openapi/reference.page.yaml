@@ -1,8 +1,21 @@
+# Title: Reference Page
+
+
 type: reference-docs
-definitionId: test-api
+versions:
+  - definitionId: test-api1
+    id: v1
+    title: test-api V1
+    isDefault: false
+  - definitionId: test-api2
+    id: v3
+    title: test-api v3
+    isDefault: true
+
 settings:
+  jsonSampleExpandLevel: 'all'
   generateCodeSamples:
-    languages:
-      - lang: curl
-      - lang: JavaScript
-      - lang: Node.js
+  languages:
+    - lang: curl
+    - lang: JavaScript
+    - lang: Node.js
