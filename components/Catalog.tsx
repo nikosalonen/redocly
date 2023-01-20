@@ -26,7 +26,8 @@ export function Catalog() {
       <FlexSection justifyContent="space-around" flexWrap="wrap">
         {apis.map(api => (
           <WideTile to={api.link} header={api.title || api.link}>
-            Tags: {api.defaultVersion.metadata?.tags.map(tag => <span> {tag} </span>)}
+            Test
+            {/* Tags: {api.defaultVersion.metadata?.tags?.map(tag => <span> {tag} </span>)} */}
           </WideTile>
         ))}
       </FlexSection>
