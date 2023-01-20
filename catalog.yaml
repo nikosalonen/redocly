@@ -5,10 +5,10 @@ apiCatalog:
     disableAutoSidebar: false # Optional parameter that prevents automatically creating the default 'sidebars.yaml' file. When set, users must manually add files to their existing 'sidebars.yaml' file or include a 'sidebars.yaml' file alongside their registry files.
    # pathPrefix: # Optional parameter to specify where to download files. When set, it replaces the automatically created 'api-name' folder. The 'api-version' subfolder(s) will still be created for non-default versions in the specified path prefix.
     versions: # One or more versions of the API to integrate.
-      - link: https://api.redocly.com/registry/bundle/orgz/Test%20api%202/v1/
+      - link: https://api.redocly.com/registry/assets/orgz/Test%20api%201/v3?branch=main
   - title: Test API 2 # Optional custom title to use for the API. If omitted, the API name from the registry is used by default.
     defaultVersion: v3 # Optional indicator specifying which of the listed 'versions' to treat as the default. If omitted, the last listed version is treated as the default.
     disableAutoSidebar: false # Optional parameter that prevents automatically creating the default 'sidebars.yaml' file. When set, users must manually add files to their existing 'sidebars.yaml' file or include a 'sidebars.yaml' file alongside their registry files.
    # pathPrefix: # Optional parameter to specify where to download files. When set, it replaces the automatically created 'api-name' folder. The 'api-version' subfolder(s) will still be created for non-default versions in the specified path prefix.
     versions: # One or more versions of the API to integrate.
-      - link: https://api.redocly.com/registry/bundle/orgz/Test%20api%201/v3/
+      - link: https://api.redocly.com/registry/assets/orgz/Test%20api%202/v1?branch=main
