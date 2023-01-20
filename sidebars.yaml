@@ -43,7 +43,7 @@ training:
       - page: reference.page.yaml
 
   - group: Admin
-    expanded: true
+    expanded: false
     pages:
       - group: Routine
         expanded: true
